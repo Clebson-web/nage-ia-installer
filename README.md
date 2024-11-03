@@ -20,14 +20,14 @@ Instalador automático para ambiente de desenvolvimento de IA, incluindo:
 ## Instalação Rápida
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Clebson-web/nage-ia-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Clebson-web/nage-ia-installer/main/nage-install.sh | bash
 ```
 
 ## Instalação Manual
 
 1. Baixe o instalador:
 ```bash
-wget https://raw.githubusercontent.com/Clebson-web/nage-ia-installer/main/install.sh
+wget https://raw.githubusercontent.com/Clebson-web/nage-ia-installer/main/nage-install.sh
 ```
 
 2. Dê permissão de execução:
