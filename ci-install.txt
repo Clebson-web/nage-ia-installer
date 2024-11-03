@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test install.sh
+      run: |
+        chmod +x install.sh
+        bash -n install.sh
+    - name: Test nage-ia.sh
+      run: |
+        chmod +x nage-ia.sh
+        bash -n nage-ia.sh
