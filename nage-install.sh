@@ -33,7 +33,7 @@ cd "$TMP_DIR"
 
 # Baixar instalador principal
 echo -e "${AMARELO}Baixando instalador...${RESET}"
-wget -q https://raw.githubusercontent.com/SEU_USUARIO/nage-ia-installer/main/nage-ia.sh
+wget -q https://raw.githubusercontent.com/Clebson-web/nage-ia-installer/main/nage-ia.sh
 
 # Dar permissão de execução
 chmod +x nage-ia.sh
