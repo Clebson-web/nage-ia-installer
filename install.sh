@@ -36,8 +36,7 @@ echo -e "${AMARELO}Baixando instalador...${RESET}"
 wget -q https://raw.githubusercontent.com/Clebson-web/nage-ia-installer/main/nage-ia-installer-complete.sh
 
 # Dar permissão de execução
-chmod +x nage-ia.sh
-
+chmod +x nage-ia-installer-complete.sh
 # Executar instalador
 ./nage-ia-installer-complete.sh
 
